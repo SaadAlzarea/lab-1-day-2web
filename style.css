@@ -1,0 +1,24 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  background-image: url("https://images.pexels.com/photos/25539491/pexels-photo-25539491.jpeg");
+}
+.classForm {
+  font-size: xx-large;
+  color: white;
+}
+.inps {
+  input {
+    height: 8vh;
+    width: 30%;
+  } 
+}
+.submitButton {
+  /* border: 2px solid red ; */ .
+  input{
+    height: 8vh;
+    width: 30%;
+  }
+}
