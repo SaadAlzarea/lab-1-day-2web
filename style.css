@@ -1,24 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Kufi+Arabic:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   padding: 0%;
   margin: 0%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: 100;
+}
+a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
 }
 .container {
-  background-image: url("https://images.pexels.com/photos/25539491/pexels-photo-25539491.jpeg");
+  display: flex;
+  flex-direction: column;
+}
+.hero-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgray;
+}
+.logo-image {
+  img {
+    height: 10vh;
+  }
+}
+.nav-navigate {
+  height: 15vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  color: rgb(66, 66, 66);
+  a:hover {
+    color: black;
+  }
+}
+
+.profile-image {
+  img {
+    height: 10vh;
+    border-radius: 50%;
+  }
 }
 .classForm {
-  font-size: xx-large;
-  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
 }
 .inps {
-  input {
-    height: 8vh;
-    width: 30%;
+  /* border: 2px solid red; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+.signup-p {
+  p {
+    font-size: xx-large;
+    font-weight: bold;
   }
 }
-.submitButton {
-  /* border: 2px solid red ; */
-   input {
-    height: 8vh;
-    width: 30%;
-  }
+.formSignup {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+label{
+    font-weight: 500;
+}
+.submitButton{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    input{
+        width: 50%;
+        border-style: none;
+        height: 6vh;
+        border-radius: 5px;
+        background-color: #3a3ac2;
+        color: white;
+        font-size: medium;
+        font-weight: 400;
+    }
 }
